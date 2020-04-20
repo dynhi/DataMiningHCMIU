@@ -1,0 +1,55 @@
+@relation adult-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-10
+
+@attribute A1_Score {0,1}
+@attribute A2_Score {0,1}
+@attribute A3_Score {0,1}
+@attribute A4_Score {0,1}
+@attribute A5_Score {0,1}
+@attribute A6_Score {0,1}
+@attribute A7_Score {0,1}
+@attribute A8_Score {0,1}
+@attribute A9_Score {0,1}
+@attribute A10_Score {0,1}
+@attribute age numeric
+@attribute gender {f,m}
+@attribute ethnicity {White-European,Latino,Others,Black,Asian,'Middle Eastern ',Pasifika,'South Asian',Hispanic,Turkish,others}
+@attribute jundice {no,yes}
+@attribute austim {no,yes}
+@attribute contry_of_res {'United States',Brazil,Spain,Egypt,'New Zealand',Bahamas,Burundi,Austria,Argentina,Jordan,Ireland,'United Arab Emirates',Afghanistan,Lebanon,'United Kingdom','South Africa',Italy,Pakistan,Bangladesh,Chile,France,China,Australia,Canada,'Saudi Arabia',Netherlands,Romania,Sweden,Tonga,Oman,India,Philippines,'Sri Lanka','Sierra Leone',Ethiopia,'Viet Nam',Iran,'Costa Rica',Germany,Mexico,Russia,Armenia,Iceland,Nicaragua,'Hong Kong',Japan,Ukraine,Kazakhstan,AmericanSamoa,Uruguay,Serbia,Portugal,Malaysia,Ecuador,Niger,Belgium,Bolivia,Aruba,Finland,Turkey,Nepal,Indonesia,Angola,Azerbaijan,Iraq,'Czech Republic',Cyprus}
+@attribute used_app_before {no,yes}
+@attribute result numeric
+@attribute age_desc {'18 and more'}
+@attribute relation {Self,Parent,'Health care professional',Relative,Others}
+@attribute Class/ASD {NO,YES}
+
+@data
+0,0,0,0,0,0,0,1,0,0,40,m,Pasifika,yes,yes,'United Arab Emirates',no,1,'18 and more',Self,NO
+0,0,0,0,0,0,0,1,0,0,40,m,'Middle Eastern ',yes,yes,Afghanistan,no,1,'18 and more',Parent,NO
+0,0,0,0,0,0,0,1,0,0,48,m,Black,no,no,'New Zealand',no,1,'18 and more',Self,NO
+0,1,1,0,0,0,0,0,1,1,31,m,'Middle Eastern ',no,no,'United Kingdom',no,4,'18 and more',Self,NO
+0,0,0,0,0,0,0,0,0,0,18,m,White-European,no,no,'United Kingdom',no,0,'18 and more',Self,NO
+1,0,0,1,1,1,1,1,0,1,37,f,White-European,no,yes,'United States',no,7,'18 and more',Self,YES
+1,1,0,0,0,0,1,0,0,1,55,f,Others,no,no,'New Zealand',no,4,'18 and more',Self,NO
+1,1,1,1,1,1,1,1,1,1,18,f,White-European,yes,no,'South Africa',no,10,'18 and more',Self,YES
+1,1,1,1,1,1,1,1,1,1,18,f,White-European,no,no,'South Africa',no,10,'18 and more',Self,YES
+0,0,1,0,0,0,0,0,0,0,55,m,White-European,no,no,'New Zealand',no,1,'18 and more',Self,NO
+0,1,1,0,1,0,0,1,1,1,50,m,'Middle Eastern ',no,no,'United Arab Emirates',no,6,'18 and more',Self,NO
+1,0,1,1,1,1,0,0,1,0,34,f,White-European,no,no,'New Zealand',no,6,'18 and more',Self,NO
+1,0,0,1,1,1,1,0,1,1,53,f,White-European,no,no,'New Zealand',no,7,'18 and more',Self,YES
+1,0,1,1,0,1,1,1,1,1,35,f,White-European,no,yes,'United States',no,8,'18 and more',Self,YES
+1,0,1,1,1,0,1,1,0,1,20,f,Latino,yes,no,Italy,no,7,'18 and more',Self,YES
+0,0,0,0,1,1,0,0,0,0,28,f,Asian,no,no,Pakistan,no,2,'18 and more',Self,NO
+0,0,1,1,0,0,0,0,0,1,34,f,'Middle Eastern ',no,yes,Egypt,no,3,'18 and more',Self,NO
+0,1,1,1,0,0,0,0,0,1,36,f,White-European,yes,yes,'United States',no,4,'18 and more',Self,NO
+1,1,1,1,1,1,0,1,0,1,27,f,White-European,no,no,'New Zealand',no,8,'18 and more',Self,YES
+1,0,1,1,1,1,0,1,1,0,53,f,White-European,no,no,'New Zealand',no,7,'18 and more',Relative,YES
+1,1,1,1,0,1,0,0,0,0,24,f,Pasifika,no,no,'New Zealand',no,5,'18 and more',Relative,NO
+0,0,1,1,1,0,1,0,0,0,24,m,Pasifika,no,no,'New Zealand',no,4,'18 and more',Relative,NO
+0,1,1,0,0,1,0,0,0,0,55,m,White-European,no,no,'New Zealand',no,3,'18 and more',Relative,NO
+1,1,0,0,0,1,1,1,0,1,30,f,Asian,no,no,Bangladesh,no,6,'18 and more',Self,NO
+1,0,0,1,0,0,0,1,0,0,21,f,Latino,no,no,Chile,no,3,'18 and more',Self,NO
+1,1,1,1,1,1,1,1,1,1,35,f,Black,no,no,France,no,10,'18 and more',Parent,YES
+1,0,0,0,0,0,0,0,0,0,383,f,Pasifika,no,no,'New Zealand',no,1,'18 and more',Self,NO
+1,0,1,1,1,1,1,1,0,1,21,m,Latino,no,yes,Brazil,no,8,'18 and more',Self,YES
+1,1,1,1,1,1,1,1,1,1,47,m,White-European,no,no,'United States',no,10,'18 and more',Self,YES
+1,1,1,1,1,1,0,1,1,1,30,f,Asian,no,no,China,no,9,'18 and more',Self,YES
